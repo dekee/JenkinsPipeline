@@ -5,6 +5,6 @@ node {
 
 stage "second step in the pipeline"
 
-node('second node') {
+node {
   echo "Hello dude"
 }
